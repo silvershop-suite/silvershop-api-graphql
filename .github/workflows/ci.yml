@@ -36,7 +36,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-composer-
 
-      # silvershop/api is an RVXD module (not on Packagist); it is resolved from the composer
+      # silvershop-suite/api is an RVXD module (not on Packagist); it is resolved from the composer
       # `repositories` VCS entry. A private api repo would need a GitHub token with repo scope exported as
       # COMPOSER_AUTH (or `composer config -g github-oauth.github.com <token>`); the public repo needs none.
       - name: Install dependencies

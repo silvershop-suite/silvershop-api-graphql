@@ -1,6 +1,6 @@
 # silvershop-suite/api-graphql
 
-A **GraphQL overlay** for [`silvershop-suite/api`](https://github.com/RVXD/silvershop-api) — a public `/graphql`
+A **GraphQL overlay** for [`silvershop-suite/api`](https://github.com/silvershop-suite/silvershop-api) — a public `/graphql`
 endpoint for the SilverShop catalog, cart, checkout hand-off, orders and customer self-service on SilverStripe
 CMS 6.
 
@@ -28,7 +28,7 @@ module:
 ```jsonc
 // composer.json
 "repositories": [
-    { "type": "vcs", "url": "https://github.com/RVXD/silvershop-api.git" }
+    { "type": "vcs", "url": "https://github.com/silvershop-suite/silvershop-api.git" }
 ]
 ```
 
