@@ -16,21 +16,11 @@ cart or order looks **identical** over `/graphql` and over `/api/v1`, field-for-
 
 ## Requirements
 
-- `silvershop-suite/api` (the REST base), `silvershop/core` ^6, `silverstripe/framework` / `silverstripe/cms` ^6
+- `silvershop-suite/api` ^1.0 (the REST base), `silvershop/core` ^6, `silverstripe/framework` / `silverstripe/cms` ^6
 - `silverstripe/graphql` ^6.1
 - PHP 8.3 / 8.4
 
 ## Installation
-
-`silvershop-suite/api` is published on the RVXD GitHub org (not Packagist), so add its repository, then require this
-module:
-
-```jsonc
-// composer.json
-"repositories": [
-    { "type": "vcs", "url": "https://github.com/silvershop-suite/silvershop-api.git" }
-]
-```
 
 ```bash
 composer require silvershop-suite/api-graphql

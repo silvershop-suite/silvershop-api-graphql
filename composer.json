@@ -20,7 +20,7 @@
         "silverstripe/cms": "^6.0",
         "silverstripe/graphql": "^6.1",
         "silvershop/core": "^6",
-        "silvershop-suite/api": "dev-main"
+        "silvershop-suite/api": "^1.0"
     },
     "require-dev": {
         "cambis/silverstan": "^2.1",
@@ -35,12 +35,6 @@
         "lint": "vendor/bin/phpcs",
         "lint:fix": "vendor/bin/phpcbf"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/silvershop-suite/silvershop-api.git"
-        }
-    ],
     "extra": {
         "branch-alias": {
             "dev-main": "1.x-dev"
